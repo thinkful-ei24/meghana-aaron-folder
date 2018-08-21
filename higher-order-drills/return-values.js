@@ -5,10 +5,9 @@ function hazardWarningCreator(typeOfWarning) {
 
 
   return function (location) {
-    warningCounter += 1;
+    warningCounter++;
     console.log(`DANGER! There is a ${typeOfWarning} hazard at ${location}!`);
-    console.log(`The ${typeOfWarning} hazard alert has triggered ${warningCounter} time(s) today!`)
-    return warningCounter;
+    console.log(`The ${typeOfWarning} hazard alert has triggered ${warningCounter} time(s) today!`);
   };
 }
 
@@ -21,3 +20,4 @@ rocksWarning('Colorado');
 floodWarning('Arizona');
 
 tornadoWarning('Kansas');
+

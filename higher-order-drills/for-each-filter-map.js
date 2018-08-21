@@ -35,6 +35,3 @@ console.log(mapArray);
 
 const ohHey = myArray.forEach((item) => console.log((Math.abs(item[0]) + Math.abs(item[1]))));
 
-
-
-
