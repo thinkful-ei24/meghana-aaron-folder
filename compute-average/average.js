@@ -1,13 +1,21 @@
 'use strict';
 
+
+
 const myArray = [1, 2, 3, 4, 5, 6];
 
-function average(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    return sum / arr.length;
+
+function computeAverage(arr) {
+
+  let total = 0;
+  arr.forEach(function(num) {
+
+    total += num;
+
+  });
+
+
+  return total;
 }
 
-console.log(average(myArray));
+console.log(computeAverage(myArray));
