@@ -10,6 +10,7 @@ const filterMethod = movements.filter(movement => movement[0] >= 0 && movement[1
 console.log(filterMethod);
 // movements.filter is accessing the above array, and then putting it through a filter function
 // movement => movement[0] >= 0 && movement[1] >= 0   This is only returning the individual arrays that are both not negative
+// the terms within can be anything, they don't have to be movement. As long as the 3 of them are consistent.
 // This logs => [[0, 0], [0, 5], [3, 2]]
 
 
